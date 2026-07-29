@@ -2081,3 +2081,33 @@ VERY SMALL PHONES
     }
 
 }
+
+@media (max-width:992px){
+
+.timeline-container::before{
+    display:none;
+}
+
+.timeline-item{
+    width:100%;
+    left:0 !important;
+    padding:0;
+    margin-bottom:24px;
+}
+
+.timeline-content{
+
+    padding:28px;
+    border:1px solid var(--border-premium);
+    border-radius:var(--radius-md);
+
+}
+
+.timeline-item.left-entrance,
+.timeline-item.right-entrance{
+
+    text-align:left;
+
+}
+
+}
