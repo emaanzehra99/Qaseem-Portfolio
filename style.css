@@ -2056,3 +2056,28 @@ VERY SMALL PHONES
     }
 
 }
+
+@media (max-width: 992px){
+
+    .timeline-container{
+        max-width:100%;
+    }
+
+    .timeline-container::before{
+        display:none;
+    }
+
+    .timeline-item{
+        width:100%;
+        left:0 !important;
+        padding:0;
+        margin-bottom:32px;
+        text-align:left !important;
+    }
+
+    .timeline-content{
+        width:100%;
+        padding:32px;
+    }
+
+}
