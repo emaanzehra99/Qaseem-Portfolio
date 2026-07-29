@@ -2164,3 +2164,12 @@ VERY SMALL PHONES
     }
 
 }
+
+@media (max-width: 768px) {
+    img {
+        width: 250px;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
