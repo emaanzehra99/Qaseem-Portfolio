@@ -2151,4 +2151,8 @@ VERY SMALL PHONES
         transition: none !important;
     }
 
+    .section-subtitle {
+        margin-top: 10px;
+    }
+
 }
